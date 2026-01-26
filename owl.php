@@ -15,7 +15,7 @@ header("Pragma: no-cache");
 header("Access-Control-Allow-Origin: *");
 
  
-$password = ""; // Password 
+$password = "123"; // Password 
 $owl['version']="1.6";
 $owl['website']="owlmailer.io";
 
